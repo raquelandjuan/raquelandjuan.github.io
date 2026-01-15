@@ -65,6 +65,14 @@
       }
     }
 
+    @media (max-width: 768px) {
+    .hero-image {
+        background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url("hero-mobile.png");
+        height: 60vh; /* altura menor para celular */
+        background-position: top center; /* mantém a parte importante visível */
+    }
+}
+
     /*Link não visitado */
     a:link {
       color: #647D99;
