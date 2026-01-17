@@ -49,21 +49,6 @@
       font-size: 0.8em;
         
     }
-    @media (max-width: 560px){
-      .hero-text {
-        font-size: 1.5em;
-        top: 40%;
-        width: 90vw;
-      }
-      .hero-text p{
-        text-align: center;
-      }
-      .hero-image{
-        min-height: auto;
-        height: 60vh;       /* smaller on phones */
-        background-position: center top;
-      }
-    }
 
     @media (max-width: 768px) {
     .hero-image {
@@ -149,7 +134,7 @@
    
     .topnav {
       overflow: hidden;
-      background-color: rgba(0, 0, 0);
+      background-color: rgba(255, 255, 255, 0.5);
       position: fixed;
       display: block;
       width: 100vw;
@@ -168,7 +153,7 @@
     }
     
     .topnav a {
-      color: white;
+      color: #647D99;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 1em;
@@ -178,7 +163,7 @@
     }
     
     .topnav p {
-      color: white;
+      color: #647D99;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 1em;
@@ -202,7 +187,7 @@
     }
     
     .topnav a:hover {
-      color: #d96a6e;
+      color: #624A44;
     }
     
     .active {
@@ -328,6 +313,7 @@
     .cerimonia,
     .LP,
     .presenca,
+    .hotel,
     .convite,
     .recados {
         min-height: 100vh;
@@ -343,6 +329,7 @@
     .cerimonia,
     .LP,
     .presenca,
+    .hotel,
     .convite,
     .recados {
         min-height: 100vh;
@@ -497,7 +484,7 @@
 .rsvp-form label {
   display: block;
   margin-bottom: 5px;
-  color: white;
+  color: #D45E2E;
   font-weight: 500;
 }
 
@@ -526,7 +513,30 @@
   background: #D45E2E;
 }
 
+.btn {
+  display: inline-block;
+  padding: 14px 36px;
+  background-color: #c9a24d;      /* elegant gold */
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;          /* removes underline */
+  border-radius: 30px;            /* rounded button */
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
 
+.btn:hover {
+  background-color: #b08b3c;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
 
 
 
